@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Trackroads</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <nav class="navbar">
+        <div class="nav-center">
+          <div class="nav-header">
+            <img src="./images/logo.svg" class="nav-logo" alt="logo" />
+            <button class="nav-toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <ul class="nav-links" id="nav-links">
+            <li>
+              <a href="#home" class="nav-link scroll-link">home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link scroll-link">about</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav-link scroll-link">services</a>
+            </li>
+
+            <li>
+              <a href="#featured" class="nav-link scroll-link">features</a>
+            </li>
+
+            <li>
+              <a href="#gallery" class="nav-link scroll-link">gallery</a>
+            </li>
+          </ul>
+          <ul class="nav-icons">
+            <li>
+              <a href="#" class="nav-icon"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#" class="nav-icon"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#" class="nav-icon"
+                ><i class="fab fa-squarespace"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="container-banner">
+          <h1>Continue exploring</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            dolores iste porro harum, perspiciatis quas ratione! Cumque quidem
+            nostrum soluta.
+          </p>
+          <a href="#feautured" class="btn container-btn scroll-link"
+            >exploring tours</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- end of header  -->
+    <section class="section" id="about">
+      <div class="section-title">
+        <h2>about <span>us</span></h2>
+      </div>
+
+      <div class="section-center about-center">
+        <article class="about-img">
+          <img src="./images/about.jpeg" class="about-photo" alt="ab" />
+        </article>
+        <article class="article about-info">
+          <h3>explore the difference</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente,
+            voluptates quia! Dolorem nobis error, id culpa eius provident odit
+            iusto?/p>
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente,
+            voluptates quia! Dolorem nobis error, id culpa eius provident odit
+            iusto?/p>
+          </p>
+          <a href="#" class="btn">read more</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-title">
+        <h2>our <span>services</span></h2>
+      </div>
+      <div class="section-center services-center">
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-wallet fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">saving money</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+              architecto doloribus sequi, temporibus quos cupiditate? Architecto
+              saepe praesentium vel minus.
+            </p>
+          </div>
+        </article>
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-tree fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">endless hiking</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+              architecto doloribus sequi, temporibus quos cupiditate? Architecto
+              saepe praesentium vel minus.
+            </p>
+          </div>
+        </article>
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-socks fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">samazing comfort</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+              architecto doloribus sequi, temporibus quos cupiditate? Architecto
+              saepe praesentium vel minus.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="featured">
+      <div class="section-title">
+        <h2>featured <span>tours</span></h2>
+      </div>
+      <div class="section-center featured-center">
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./images/tour-1.jpeg" clas tour-img alt="tour" />
+            <p class="tour-date">august 26th, 2022</p>
+          </div>
+          <div class="tour-info">
+            <h4>tibet adventure</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              nesciunt minima aliquam eos, facilis reiciendis?
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span><i class="fas fa-map"></i>china</span>
+              </p>
+              <p>6 days</p>
+              <p>from $2010</p>
+            </div>
+          </div>
+        </article>
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./images/tour-2.jpeg" clas tour-img alt="tour" />
+            <p class="tour-date">july 22th, 2022</p>
+          </div>
+          <div class="tour-info">
+            <h4>malta adventure</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              nesciunt minima aliquam eos, facilis reiciendis?
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span><i class="fas fa-map"></i>china</span>
+              </p>
+              <p>6 days</p>
+              <p>from $1900</p>
+            </div>
+          </div>
+        </article>
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./images/tour-3.jpeg" clas tour-img alt="tour" />
+            <p class="tour-date">april 26th, 2022</p>
+          </div>
+          <div class="tour-info">
+            <h4>argentina adventure</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              nesciunt minima aliquam eos, facilis reiciendis?
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span><i class="fas fa-map"></i>argentina</span>
+              </p>
+              <p>6 days</p>
+              <p>from $1450</p>
+            </div>
+          </div>
+        </article>
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./images/tour-4.jpeg" clas tour-img alt="tour" />
+            <p class="tour-date">august 26th, 2022</p>
+          </div>
+          <div class="tour-info">
+            <h4>tibet adventure</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              nesciunt minima aliquam eos, facilis reiciendis?
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span><i class="fas fa-map"></i>china</span>
+              </p>
+              <p>6 days</p>
+              <p>from $2010</p>
+            </div>
+          </div>
+        </article>
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./images/tour-5.jpeg" clas tour-img alt="tour" />
+            <p class="tour-date">august 26th, 2022</p>
+          </div>
+          <div class="tour-info">
+            <h4>tibet adventure</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              nesciunt minima aliquam eos, facilis reiciendis?
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span><i class="fas fa-map"></i>germany</span>
+              </p>
+              <p>6 days</p>
+              <p>from $1010</p>
+            </div>
+          </div>
+        </article>
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./images/tour-6.jpeg" clas tour-img alt="tour" />
+            <p class="tour-date">august 26th, 2022</p>
+          </div>
+          <div class="tour-info">
+            <h4>poland adventure</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              nesciunt minima aliquam eos, facilis reiciendis?
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span><i class="fas fa-map"></i>france</span>
+              </p>
+              <p>6 days</p>
+              <p>from $2010</p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="tour-btn">
+        <a href="#" class="btn">all tours</a>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-center contact-center">
+        <article class="contact-title">
+          <h3>wana latest tour info and update?</h3>
+          <p>Sign up for newsletter and stay up to date</p>
+        </article>
+        <form class="contact-form">
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="your email"
+          />
+          <button type="submit" class="btn-submit">submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="gallery-center">
+        <article class="gallery-img-container">
+          <img src="./images/tour-1.jpeg" class="gallery-img" alt="bg" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="gallery-img-container">
+          <img src="./images/tour-2.jpeg" class="gallery-img" alt="bg" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="gallery-img-container">
+          <img src="./images/tour-3.jpeg" class="gallery-img" alt="bg" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="gallery-img-container">
+          <img src="./images/tour-4.jpeg" class="gallery-img" alt="bg" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="gallery-img-container">
+          <img src="./images/tour-5.jpeg" class="gallery-img" alt="bg" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="gallery-img-container">
+          <img src="./images/tour-6.jpeg" class="gallery-img" alt="bg" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="gallery-img-container">
+          <img src="./images/tour-3.jpeg" class="gallery-img" alt="bg" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="gallery-img-container">
+          <img src="./images/tour-4.jpeg" class="gallery-img" alt="bg" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <footer class="section footer">
+      <ul class="footer-links">
+        <li>
+          <a href="#home" class="footer-link scroll-link">home</a>
+        </li>
+        <li>
+          <a href="#about" class="footer-link scroll-link">about</a>
+        </li>
+
+        <li>
+          <a href="#services" class="footer-link scroll-link">services</a>
+        </li>
+
+        <li>
+          <a href="#features" class="footer-link scroll-link">features</a>
+        </li>
+
+        <li>
+          <a href="#gallery" class="footer-link scroll-link">gallery</a>
+        </li>
+      </ul>
+      <ul class="footer-icons">
+        <li>
+          <a href="#" class="footer-icon"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#" class="footer-icon"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#" class="footer-icon"><i class="fab fa-squarespace"></i></a>
+        </li>
+      </ul>
+      <p class="copyright">copyright &copy;Website<span id="date"></span></p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
